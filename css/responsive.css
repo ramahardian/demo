@@ -30,7 +30,7 @@ Filename      : responsive.css
         background-position: 80% center;
     }
     #navigation-main {
-        background-color: rgba(255, 255, 255, .9);
+        background-color: rgba(48, 48, 48, .9);
     }
     .navbar-nav li a:hover::after {
         width: 10%;
@@ -45,7 +45,7 @@ Filename      : responsive.css
         text-align: center;
         margin: 200px 0;
         padding: 30px;
-        background-color: rgba(255, 255, 255, .8);
+        background-color: rgba(48, 48, 48, .9);
     }
     .hero-about h1 {
         font-size: 15px;
