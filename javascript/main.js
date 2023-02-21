@@ -102,6 +102,17 @@ var magnific = function() {
         });
     }
 };
+
+
+
+$('.lg').click(function() {
+    $("link[id='mainstyle']").toggleClass('open').attr('href', function(_, currHref) {
+        return currHref === 'css/main.css' ? 'css/dark.css' : 'css/main.css';
+    });
+    var src = $('.logo').attr('src');
+    var newsrc = (src == 'asset/image/pageasset/logo-w.png') ? 'asset/image/pageasset/logo.png' : 'asset/image/pageasset/logo-w.png';
+    $('.logo').attr('src', newsrc);
+});
 //  menu mobile 
 var menumobile = function(e) {
     //------------- open menu mobile 
