@@ -504,7 +504,7 @@ Filename      : main.css
     }
     
     .warp-filter .filter li.active {
-        background: rgba(32, 33, 36, .1);
+        background: #070707;
     }
     
     .texts {
@@ -670,7 +670,7 @@ Filename      : main.css
 * 08.PRICE SECTION  
 * ----------------------------------------------------------------------------------------
 */
-    
+    /*
     .block-price:nth-last-child(3) {
         border: 3px solid #070707;
         border-right: none;
@@ -679,10 +679,16 @@ Filename      : main.css
     .block-price:nth-last-child(2) {
         border: 3px solid #070707;
     }
+    */
     
-    .block-price:nth-last-child(1) {
+    .block-price:nth-last-child(1) .price-innerdetail {
         background: #070707;
         color: #fff;
+    }
+    
+    .price-innerdetail {
+        border: 3px solid #070707;
+        padding: 50px 60px;
     }
     
     .price-innerdetail h5 {
@@ -755,6 +761,7 @@ Filename      : main.css
     .detail-inner p.text-muted {
         font-size: 13px;
         font-weight: 300;
+        color: #fff !important;
     }
     
     .formwrap {

@@ -88,13 +88,13 @@ Filename      : responsive.css
     .count-wrap {
         padding: 50px 0;
     }
-    .block-price:nth-last-child(3) {
+    /*.block-price:nth-last-child(3) {
         border: 3px solid #070707;
     }
     .block-price:nth-last-child(2) {
         border: 3px solid #070707;
         border-top: none;
-    }
+    }*/
     .detail-pricing {
         padding: 30px 0 0 0;
     }
