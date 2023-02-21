@@ -52,7 +52,7 @@ Filename      : main.css
         padding: 10px;
         width: 100%;
         background-color: rgba(32, 33, 36, .1);
-        border: 1px solid rgba(32, 33, 36, .3);
+        border: 1px solid #333;
         border-radius: 3px;
     }
     
@@ -136,13 +136,13 @@ Filename      : main.css
     }
     
     .owl-theme .owl-dots .owl-dot span {
-        background: #070707;
+        background: #fff;
     }
     
     .owl-theme .owl-dots .owl-dot.active span,
     .owl-theme .owl-dots .owl-dot:hover span {
         background: rgba(0, 0, 0, 0);
-        border: 2px solid #070707;
+        border: 2px solid #fff;
     }
     
     .sosmed-vertical {
@@ -343,12 +343,12 @@ Filename      : main.css
     }
     
     .nav-link.active {
-        color: #070707;
+        color: #fff;
     }
     
     .nav-link.active:after {
         width: 50%;
-        background: #070707;
+        background: #fff;
         transition: width .3s;
     }
     /*
@@ -759,9 +759,9 @@ Filename      : main.css
     
     .formwrap {
         padding: 0 20px 30px;
-        background: rgba(255, 255, 255, .8);
+        background: rgba(7, 7, 7, .8);
         border-radius: 5px;
-        border: 1px solid rgba(32, 33, 36, .1);
+        border: 1px solid #333;
     }
     
     textarea.comentarea {
@@ -770,7 +770,7 @@ Filename      : main.css
     
     button.submitbuton {
         width: 100%;
-        border: 1px solid rgba(32, 33, 36, .3);
+        border: 1px solid rgba(7, 7, 7, .3);
         padding: 10px;
         font-size: 15px;
         font-weight: 600;
