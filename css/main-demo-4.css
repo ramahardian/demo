@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&family=Roboto:wght@300;400;600;900&display=swap');
+@import url(./vendor/bootstrap/bootstrap.css);
+@import url(./vendor/bootstrap/icon/bootstrap-icon.css);
+@import url(./vendor/fontawesome/fontawesome.css);
+@import url(./vendor/magnific/magnific.css);
+@import url(./vendor/owlcarousel/owl.carousel.min.css);
+@import url(./vendor/owlcarousel/owl.theme.default.min.css);
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: #070707;
+    position: relative;
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+
+label {
+    font-weight: 400;
+    color: #f6f1ed;
+}
+
+textarea {
+    height: 150px;
+}
+
+input,
+textarea {
+    padding: 10px;
+    width: 100%;
+    background-color: rgba(32, 33, 36, .1);
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, .9);
+    border-radius: 3px;
+    color: #f6f1ed;
+}
+
+
+/*
+* ----------------------------------------------------------------------------------------
+* 06.LEFT SIDE
+* ----------------------------------------------------------------------------------------
+*/
+
+#left-side {
+    background: #202020;
+    width: 30%;
+    height: 100vh;
+    position: fixed;
+}
+
+
+/*
+* ----------------------------------------------------------------------------------------
+* 17.RIGHT SIDE WRAP
+* ----------------------------------------------------------------------------------------
+*/
+
+#right-side {
+    background: #141211;
+    width: 70%;
+    right: 0;
+    top: 0;
+    float: right;
+}
+
+
+/*
+* ----------------------------------------------------------------------------------------
+* 09.FOOTER SECTION AND  CONTACT SECTION
+* ----------------------------------------------------------------------------------------
+*/
+
+#footer-section {
+    background: #070707;
+    padding: 100px 50px 100px 50px;
+}
+
+.footerwrap h3 {
+    font-family: 'Cinzel', serif;
+    letter-spacing: 3px;
+    font-size: 40px;
+    color: #f6f1ed;
+}
+
+.footerwrap p {
+    line-height: 1.77778;
+    font-weight: 100;
+    color: #f6f1ed;
+}
+
+.submitbuton {
+    letter-spacing: 2px;
+    padding: 15px 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background: #dd9d4c;
+}
+
+.footer-bottom {
+    padding: 0;
+}
+
+.footerdetail {
+    padding: 0;
+}
+
+.footerdetail li {
+    position: relative;
+    list-style: none;
+}
+
+.footerdetail li p {
+    color: #aba8a8;
+}
+
+.footerdetail h4 {
+    color: #f6f1ed;
+    font-weight: 400;
+}
+
+.footer-bottom li {
+    position: relative;
+    display: inline-block;
+    list-style: none;
+}
+
+.footer-bottom li a {
+    color: #aba8a8;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.footer-bottom li a:hover {
+    color: #f6f1ed;
+}
+
+.footer-bottom li:first-child a i {
+    margin: 0 15px 0 0;
+}
+
+.footer-bottom li a i {
+    margin: 0 15px;
+}
+
+p.copyr {
+    font-weight: 400;
+    color: #aba8a8;
+}

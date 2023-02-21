@@ -1,0 +1,82 @@
+/*
+* ----------------------------------------------------------------------------------------
+Author        : Rama Hardian Sidik
+Template Name : Reypotret - multipurpose photographer portfolio landing page bootstrap template 
+Version       : 1.1
+Filename      : responsive-3.css
+* ----------------------------------------------------------------------------------------
+*/
+
+@media only screen and (min-device-width: 1366px) and (max-device-width: 1366px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {}
+
+@media only screen and (device-width: 375px) and (device-height: 812px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 3) {}
+
+@media only screen and (device-width: 812px) and (device-height: 375px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3) {}
+
+@media screen and (max-width: 2560px) {}
+
+@media screen and (max-width: 1440px) {}
+
+@media screen and (max-width: 1366px) {}
+
+@media screen and (max-width: 1128px) {}
+
+@media screen and (max-width: 1024px) {}
+
+@media only screen and (min-width: 999px) {}
+
+@media (max-width: 999px) {
+    .herowrap {
+        position: relative;
+        top: -100px;
+    }
+    .openmenu.mobile-navwrap {
+        height: 100%;
+        visibility: visible;
+    }
+    .toggle-nav {
+        display: block;
+    }
+    .navigation-big {
+        display: none;
+    }
+    .hero-title {
+        font-size: 50px;
+    }
+    .titlewrap h3 {
+        font-size: 30px;
+    }
+    .herowrap span {
+        font-size: 20px;
+    }
+    .submitbuton {
+        width: 100%;
+    }
+    .p-left {
+        border-bottom-right-radius: 0;
+        border-top-right-radius: 0;
+    }
+    .p-right {
+        border-bottom-left-radius: 0;
+        border-top-left-radius: 0;
+    }
+}
+
+@media (max-width: 799px) {}
+
+@media only screen and (max-width: 699px) {}
+
+@media only screen and (max-width: 580px) {}
+
+@media (max-width: 480px) {}
+
+@media (max-width: 360px) {}
+
+@media all and (-ms-high-contrast: none),
+(-ms-high-contrast: active) {}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {}

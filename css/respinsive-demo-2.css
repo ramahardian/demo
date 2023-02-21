@@ -1,0 +1,218 @@
+/*
+* ----------------------------------------------------------------------------------------
+Author        : Rama Hardian Sidik
+Template Name : Reypotret - multipurpose photographer portfolio landing page bootstrap template 
+Version       : 1.1
+Filename      : responsive-two.css
+* ----------------------------------------------------------------------------------------
+*/
+
+@media only screen and (min-device-width: 1366px) and (max-device-width: 1366px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {}
+
+@media only screen and (device-width: 375px) and (device-height: 812px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 3) {}
+
+@media only screen and (device-width: 812px) and (device-height: 375px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3) {}
+
+@media screen and (max-width: 2560px) {
+    .portfolio-grid {
+        margin-left: -22px!important;
+        width: calc(100% + 22px)!important;
+    }
+    .portfolio-col-3 .portfolio-item {
+        width: 33.3333%!important;
+        padding: 0 0 22px 22px!important;
+    }
+    .portfolio-col-2 .portfolio-item {
+        width: 50%!important;
+        padding: 0 0 22px 22px!important;
+    }
+}
+
+@media screen and (max-width: 1440px) {}
+
+@media screen and (max-width: 1366px) {}
+
+@media screen and (max-width: 1128px) {}
+
+@media screen and (max-width: 1024px) {}
+
+@media only screen and (min-width: 999px) {
+    .navbar {
+        flex-direction: column;
+    }
+    .navbar .nav-item {
+        padding: 0.5em 1em;
+    }
+}
+
+@media (max-width: 999px) {
+    #navigation-main {
+        background-color: rgba(255, 255, 255, 1);
+    }
+    #navigationlist .navbar-nav li.show>a:after {
+        transform: unset;
+        width: 0;
+        height: 2px;
+        transition: width .3s;
+        position: relative;
+        bottom: -10px;
+    }
+    .navbar-nav li a::after {
+        transform: unset;
+        left: 0;
+        width: 0;
+    }
+    .nav-link.active:after {
+        width: 10%;
+        background: #070707;
+        transition: width .3s;
+        transform: unset;
+    }
+    .navbar-nav li a:hover::after {
+        width: 10%;
+        background: #070707;
+        transition: width .3s;
+        transform: unset;
+    }
+    .dropdown-menu {
+        border: none;
+    }
+    .heroimgwrap {
+        height: 100vh;
+    }
+    .wrapinfohero {
+        padding: 0;
+    }
+    .hero-about {
+        text-align: center;
+        margin: 0 0;
+        padding: 30px;
+        background-color: rgba(255, 255, 255, .8);
+    }
+    .hero-about h1 {
+        font-size: 15px;
+    }
+    .hero-about span.typed,
+    .typed-cursor {
+        font-size: 30px;
+        white-space: unset;
+    }
+    .pic-wrap {
+        width: 50% !important;
+        flex: 0 0 50% !important;
+        max-width: 50% !important;
+    }
+    .sosmed-vertical {
+        display: none;
+    }
+    .title-big h2 {
+        font-size: 50px;
+        top: 0px;
+    }
+    .texts h4 {
+        font-size: 20px;
+    }
+    .item-testi {
+        padding: 50px 50px 0;
+    }
+    .text-testiwrap {
+        width: 100%;
+        float: unset;
+    }
+    .poto-userwarp {
+        margin: 0 auto;
+        width: 150px;
+        float: unset;
+        height: 150px;
+        border-radius: 100px;
+    }
+    #counter-section {
+        background-position: 60% center;
+    }
+    .count-wrap {
+        padding: 50px 0;
+    }
+    .block-price:nth-last-child(3) {
+        border: 3px solid #070707;
+    }
+    .block-price:nth-last-child(2) {
+        border: 3px solid #070707;
+        border-top: none;
+    }
+    .detail-pricing {
+        padding: 30px 0 0 0;
+    }
+    .detail-pricing span.float-right {
+        display: block;
+        padding: 20px 0;
+    }
+    .detail-pricing span.float-left,
+    span.float-right {
+        float: unset !important;
+    }
+}
+
+@media (max-width: 799px) {
+    .wrap-testimonials {
+        padding: 100px 50px;
+    }
+    .wrap-comment {
+        width: 100%;
+        float: unset;
+        text-align: center;
+    }
+    .detail-user {
+        width: 100px;
+        height: 100px;
+        float: unset;
+        margin: 0 auto;
+    }
+    .detail-user img {
+        width: 100px;
+        height: 100px;
+    }
+    .custom-nav .owl-prev,
+    .custom-nav .owl-next {
+        padding: 10px;
+    }
+}
+
+@media only screen and (max-width: 699px) {
+    .content-porto {
+        height: 550px;
+    }
+    .title-big h3 {
+        font-size: 25px;
+    }
+    .title-big h2 {
+        font-size: 35px;
+        top: 5px;
+    }
+}
+
+@media only screen and (max-width: 580px) {
+    .portfolio-col-3 .portfolio-item {
+        width: 100%!important;
+        padding: 0 0 22px 22px!important;
+    }
+    .wrap-comment h4 {
+        line-height: 25px;
+        font-size: 15px;
+    }
+    .item-name {
+        top: 30%;
+    }
+}
+
+@media (max-width: 480px) {}
+
+@media (max-width: 360px) {}
+
+@media all and (-ms-high-contrast: none),
+(-ms-high-contrast: active) {}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {}
