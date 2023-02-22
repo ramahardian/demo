@@ -482,6 +482,12 @@ Filename      : main.css
         margin: 30px auto;
     }
     
+    .card-wrap.cl img.icon-i {
+        filter: unset;
+        width: 80px;
+        margin: 30px auto;
+    }
+    
     .inner-detail h3 {
         font-family: 'Poppins', serif;
         font-weight: 600;
