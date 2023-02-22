@@ -207,6 +207,10 @@ Filename      : main.css
         box-shadow: none;
     }
     
+    .colors {
+        color: #fff;
+    }
+    
     .lg {
         position: fixed;
         background: #fff;
@@ -217,6 +221,10 @@ Filename      : main.css
         color: #333;
         font-size: 30px;
         cursor: pointer;
+    }
+    
+    .darks {
+        color: #fff;
     }
     /*
 * ----------------------------------------------------------------------------------------
