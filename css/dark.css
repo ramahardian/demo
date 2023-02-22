@@ -411,6 +411,12 @@ Filename      : main.css
         font-size: 50px;
     }
     
+    .card-wrap img.icon-i {
+        filter: invert(1);
+        width: 100px;
+        margin: 0 auto;
+    }
+    
     .inner-detail h3 {
         font-family: 'Cinzel', serif;
         font-weight: 600;
