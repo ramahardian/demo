@@ -110,6 +110,8 @@ $('.lg').click(function() {
     var newsrc = (src == 'asset/image/pageasset/logo-w.png') ? 'asset/image/pageasset/logo.png' : 'asset/image/pageasset/logo-w.png';
     $('.logo').attr('src', newsrc);
     $('.navbar-toggler-icon i').toggleClass('colors');
+    $('#navigation-main').toggleClass('transcolors');
+    $('.hero-about').toggleClass('bglg')
 });
 //  menu mobile 
 var menumobile = function(e) {

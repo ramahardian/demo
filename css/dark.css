@@ -193,6 +193,14 @@ Filename      : main.css
         box-shadow: none;
     }
     
+    .colors {
+        color: #070707;
+    }
+    
+    .bglg {
+        background: #fff !important;
+    }
+    
     .lg {
         position: fixed;
         background: #fff;
@@ -203,6 +211,7 @@ Filename      : main.css
         color: #333;
         font-size: 30px;
         cursor: pointer;
+        z-index: 999;
     }
     /*
 * ----------------------------------------------------------------------------------------
