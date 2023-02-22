@@ -394,19 +394,19 @@ $(document).ready(function() {
         if ($('#home-section').length) {
             $('#home-section').ripples({
                 resolution: 512,
-                dropRadius: 20,
-                perturbance: 0.04,
-                interactive: false,
+                dropRadius: 18,
+                perturbance: 0.01,
+                interactive: true,
             });
             // Automatic drops
-            setInterval(function() {
-                var $el = $('#home-section');
-                var x = Math.random() * $el.outerWidth();
-                var y = Math.random() * $el.outerHeight();
-                var dropRadius = 20;
-                var strength = 0.04 + Math.random() * 0.04;
-                $el.ripples('drop', x, y, dropRadius, strength);
-            }, 4000);
+            /* setInterval(function() {
+                 var $el = $('#home-section');
+                 var x = Math.random() * $el.outerWidth();
+                 var y = Math.random() * $el.outerHeight();
+                 var dropRadius = 20;
+                 var strength = 0.04 + Math.random() * 0.04;
+                 $el.ripples('drop', x, y, dropRadius, strength);
+             }, 4000);*/
         };
     };
     if ($('.jarallax').length) {
