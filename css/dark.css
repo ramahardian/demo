@@ -665,7 +665,7 @@ Filename      : main.css
 * 08.PRICE SECTION  
 * ----------------------------------------------------------------------------------------
 */
-    
+    /*
     .block-price:nth-last-child(3) {
         border: 3px solid #070707;
         border-right: none;
@@ -674,10 +674,16 @@ Filename      : main.css
     .block-price:nth-last-child(2) {
         border: 3px solid #070707;
     }
+    */
     
-    .block-price:nth-last-child(1) {
+    .block-price:nth-last-child(1) .price-innerdetail {
         background: #070707;
         color: #fff;
+    }
+    
+    .price-innerdetail {
+        border: 3px solid #070707;
+        padding: 50px 60px;
     }
     
     .price-innerdetail h5 {

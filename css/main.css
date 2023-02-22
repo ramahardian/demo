@@ -107,6 +107,23 @@ Filename      : main.css
         width: 100%;
     }
     
+    .darkx {
+        background: #303030 !important;
+    }
+    
+    .lg {
+        position: fixed;
+        background: #fff;
+        padding: 18px;
+        right: -10px;
+        top: 50%;
+        border-radius: 30px 0 0 0;
+        color: #333;
+        font-size: 30px;
+        cursor: pointer;
+        z-index: 999;
+    }
+    
     p.description-p {
         font-weight: 400;
         line-height: 25px;
@@ -264,6 +281,45 @@ Filename      : main.css
         content: '';
         position: absolute;
         background-color: #070707;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        will-change: left, right;
+        animation: lines 2.1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite;
+        animation-delay: 1.15s;
+    }
+    
+    .darkx .progress {
+        height: 3px;
+        display: block;
+        width: 30%;
+        background-color: rgba(255, 255, 255, .1);
+        border-radius: 2px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .darkx .progress .line {
+        background-color: #fff;
+    }
+    
+    .darkx .progress .line:before {
+        content: '';
+        position: absolute;
+        background-color: #fff;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        will-change: left, right;
+        animation: line 2.1s cubic-bezier(0.65, 0.815, 0.735, 0.395) infinite;
+    }
+    
+    .darkx .progress .line:after {
+        content: '';
+        position: absolute;
+        background-color: #fff;
         top: 0;
         left: 0;
         bottom: 0;
